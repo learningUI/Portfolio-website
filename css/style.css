@@ -32,9 +32,8 @@ p {
   font-size: 1.00em;
   font-weight: 500;
 }
-img {
-  width: 95%;
-}
+#responsive-image {  width: 100%;  height: auto; }
+
 a:visited { /* visited link */
   color: #ff7f50;
 }
@@ -47,7 +46,7 @@ a:active { /* selected link */
   color: #994c30;
 }
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block */
+  display: inline-block;
   background-color: #ff7f50;
   color: #ffffff !important; /* needed to override the default link color */
   font-weight: 500;
@@ -62,4 +61,14 @@ a:active { /* selected link */
 }
 .button:active { /* selected link */
   color: #994c30;
+}
+.button.contact {/* used for email button */
+  background-color: transparent;
+  color: #ff7f50 !important;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+.button.contact:hover {
+  background-color: #ff7f50;
+  color: #ffffff !important;
 }
