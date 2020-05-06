@@ -1,15 +1,19 @@
-
 body {
-  background-color: #FFFFF0; /* Ivory */
+  background-color: #FFFFF0;
+  /* Ivory */
   font-family: 'Jost', sans-serif;
-font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 400; /* Sets the font weight to 400 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 400;
+  /* Sets the font weight to 400 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
 }
 
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 1.35em;
   font-weight: 500;
@@ -24,45 +28,64 @@ h3 {
   font-size: 1.10em;
   font-weight: 400;
 }
+
 h4 {
   line-height: 1.4;
 }
-img {width: 100%;}
 
-a:visited { /* visited link */
+img {
+  width: 100%;
+}
+
+a:visited {
+  /* visited link */
   color: #ff7f50;
 }
+
 a:hover,
 a:focus {
   color: #cc6540;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
-a:active { /* selected link */
+
+a:active {
+  /* selected link */
   color: #994c30;
 }
+
 .button {
   display: inline-block;
   background-color: #ff7f50;
-  color: #ffffff !important; /* needed to override the default link color */
+  color: #ffffff !important;
+  /* needed to override the default link color */
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  border-bottom: 2px solid #994c30;
+  /* width of the border, type, color */
   transition: 0.9s opacity;
 }
+
 .button:hover {
-  opacity: 0.7; /* Reduces the opacity of the button to 80% */
+  opacity: 0.7;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
-.button:active { /* selected link */
+
+.button:active {
+  /* selected link */
   color: #994c30;
 }
-.button.contact {/* used for email button */
+
+.button.contact {
+  /* used for email button */
   background-color: transparent;
   color: #ff7f50 !important;
   text-transform: uppercase;
   border: 2px solid #ff7f50;
 }
+
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff !important;
