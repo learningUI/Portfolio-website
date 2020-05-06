@@ -2,7 +2,6 @@
 body {
   background-color: #FFFFF0; /* Ivory */
   font-family: 'Jost', sans-serif;
-}
 font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 400 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
@@ -28,11 +27,7 @@ h3 {
 h4 {
   line-height: 1.4;
 }
-p {
-  font-size: 1.00em;
-  font-weight: 500;
-}
-#responsive-image {  width: 100%;  height: auto; }
+img {width: 100%;}
 
 a:visited { /* visited link */
   color: #ff7f50;
