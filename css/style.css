@@ -33,6 +33,11 @@ img {
   width: 100%;
 }
 
+a {
+  font-size: 1.40em;
+  font-weight: 500;
+}
+
 a:visited {
   /* visited link */
   color: #ff7f50;
