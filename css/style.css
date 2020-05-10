@@ -1,3 +1,4 @@
+
 body {
   background-color: #FFFFF0;
   /* Ivory */
@@ -9,7 +10,11 @@ body {
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
 }
-
+header {
+  background-color:  #b2f5e6;
+  padding: 10px;
+  margin: 10px;
+}
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -34,8 +39,7 @@ img {
 }
 
 a {
-  font-size: 1.40em;
-  font-weight: 500;
+  color: #ff7f50;
 }
 
 a:visited {
@@ -90,4 +94,11 @@ a:active {
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff !important;
+}
+.fab {
+  font-size:24px
+  }
+  /* Layout styling */
+  .container {
+  padding: 0 15px;
 }
