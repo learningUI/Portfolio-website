@@ -111,7 +111,7 @@ selector {
 }
 
 #.logo {
-  max-width: 240px;
+  max-width: 250px;
 }
 
 header {
@@ -136,11 +136,12 @@ nav>ul {
 
 nav>ul>li {
   display: inline-block;
-  width: 100%
 }
 
-nav li a {
-  padding: 0 10px;
+nav>ul>li>a {
+  padding: 0 15px;
+  font-weight: 700;
+  color: #4a4a4a;
 }
 
 nav>ul>li>a:active {
