@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: #FFFFF0;
+  background-color: #F5F5DC;
+  #FFFFF0
   /* Ivory */
   font-family: 'Jost', sans-serif;
   font-size: 16px;
@@ -49,8 +50,6 @@ a:visited {
 a:hover,
 a:focus {
   color: #cc6540;
-  text-decoration: underline;
-  /* Underlining when hovering over a link */
 }
 
 a:active {
@@ -69,12 +68,12 @@ a:active {
   border-bottom: 2px solid #994c30;
   /* width of the border, type, color */
   transition: 0.9s opacity;
+  text-decoration: none;
 }
 
 .button:hover {
   opacity: 0.7;
   /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
 }
 
 .button:active {
@@ -96,7 +95,11 @@ a:active {
 }
 
 .fab {
-  font-size: 50px
+  font-size: 50px;
+}
+
+.social a {
+  text-decoration: none;
 }
 
 /* Layout styling */
@@ -110,15 +113,15 @@ selector {
   padding: 0 15px;
 }
 
-#.logo {
-  max-width: 250px;
+.logo {
+  max-width: 150px;
 }
 
 header {
-  background-color: #ffe4c4;
-  -webkit-box-shadow: 7px 7px 4px -2px rgba(255, 239, 212, 1);
-  -moz-box-shadow: 7px 7px 4px -2px rgba(255, 239, 212, 1);
-  box-shadow: 7px 7px 4px -2px rgba(255, 239, 212, 1);
+  background-color: #FFFFF0;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(153, 153, 153, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(153, 153, 153, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(153, 153, 153, 0.75);
   position: fixed;
   width: 100%;
   text-align: center;
@@ -126,7 +129,7 @@ header {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 135px;
 }
 
 nav>ul {
@@ -142,6 +145,7 @@ nav>ul>li>a {
   padding: 0 15px;
   font-weight: 700;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 nav>ul>li>a:active {
@@ -158,13 +162,11 @@ nav>ul>li>a:active {
 
 #hero h1 {
   text-align: center;
-  background-color: #ffe4c4;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
+  padding: 20px;
+  margin-top: 0;
 }
 
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
+  border-bottom: 1px;
 }
