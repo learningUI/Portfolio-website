@@ -100,6 +100,11 @@ a:active {
 
 .social a {
   text-decoration: none;
+  margin-top: 30px;
+}
+
+.social {
+  margin-top: 20px;
 }
 
 /* Layout styling */
@@ -144,7 +149,7 @@ nav>ul>li {
 nav>ul>li>a {
   padding: 0 15px;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #ff7f50;
   text-decoration: none;
 }
 
@@ -152,7 +157,7 @@ nav>ul>li>a:active {
   color: #994c30;
   padding: 0 15px;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #ff7f50;
 }
 
 .row {
@@ -169,4 +174,26 @@ nav>ul>li>a:active {
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    font-size: 25px
+  }
+
+  nav {
+    float: right
+  }
+
+  main {
+    padding-top: 100px;
+  }
+
+  body {
+    font-size: 25px;
+  }
 }
