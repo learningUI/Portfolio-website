@@ -193,8 +193,26 @@ Medium devices (640px and larger)
     padding-top: 100px;
   }
 
+  #hero span {
+    display: block;
+  }
+
   body {
     font-size: 25px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding:10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 }
 
@@ -204,7 +222,7 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
   header {
     text-align: unset;
-    font-size: 30px
+    font-size: 25px
   }
 
   nav {
