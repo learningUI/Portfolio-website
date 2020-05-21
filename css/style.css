@@ -176,6 +176,11 @@ nav>ul>li>a:active {
   border-bottom: 1px;
 }
 
+.animation {
+  width: 100%;
+  height: auto;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
