@@ -4,8 +4,9 @@
 
 body {
   background-color: #F5F5DC;
-  #FFFFF0
-  /* Ivory */
+  /* beige */
+  color: #191919;
+  /* text colour */
   font-family: 'Jost', sans-serif;
   font-size: 16px;
   /* Sets the font size to 16px */
@@ -124,9 +125,9 @@ selector {
 
 header {
   background-color: #FFFFF0;
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(153, 153, 153, 0.75);
-  -moz-box-shadow: 7px 7px 5px 0px rgba(153, 153, 153, 0.75);
-  box-shadow: 7px 7px 5px 0px rgba(153, 153, 153, 0.75);
+  -webkit-box-shadow: 10px 10px 21px -4px rgba(235, 235, 235, 1);
+  -moz-box-shadow: 10px 10px 21px -4px rgba(235, 235, 235, 1);
+  box-shadow: 10px 10px 21px -4px rgba(235, 235, 235, 1);
   position: fixed;
   width: 100%;
   text-align: center;
