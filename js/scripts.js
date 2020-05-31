@@ -1,2 +1,2 @@
 
-  alert("Welcome to my Website");
+  alert("Welcome to my page");
