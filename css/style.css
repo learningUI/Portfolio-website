@@ -148,10 +148,6 @@ nav>ul {
   margin: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
-}
-
 nav>ul>li>a {
   padding: 0 15px;
   font-weight: 700;
@@ -164,6 +160,10 @@ nav>ul>li>a:active {
   padding: 0 15px;
   font-weight: 700;
   color: #ff7f50;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 
 .row {
@@ -263,9 +263,17 @@ Medium devices (640px and larger)
 
   nav {
     float: right;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  
   main {
     padding-top: 100px;
     font-size: 20px
