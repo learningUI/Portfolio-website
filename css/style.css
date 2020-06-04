@@ -124,7 +124,7 @@ selector {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 130px;
 }
 
 header {
@@ -257,9 +257,13 @@ Medium devices (640px and larger)
     font-size: 25px
   }
 
+  .logo {
+    min-width: 241px;
+  }
+
   nav {
     float: right;
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   main {
