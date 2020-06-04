@@ -135,7 +135,7 @@ header {
   position: fixed;
   width: 100%;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
 }
 
 .navtoggle li .icon {
@@ -272,6 +272,10 @@ Medium devices (640px and larger)
   nav {
     float: right;
     margin-top: 30px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
 
   nav>ul>li {
