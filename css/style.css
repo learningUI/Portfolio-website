@@ -70,7 +70,8 @@ a:active {
   /* width of the border, type, color */
   transition-duration: 0.2s opacity;
   text-decoration: none;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   text-align: center;
 }
 
@@ -134,15 +135,19 @@ header {
   box-shadow: 10px 10px 21px -4px rgba(235, 235, 235, 1);
   position: fixed;
   width: 100%;
-  text-align: center;
   padding: 10px 0 4px;
 }
 
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 30px;
+  top: 17px;
   font-size: 20px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+  padding-right: 0;
 }
 
 main {
@@ -169,11 +174,6 @@ nav>ul>li>a:active {
   color: #ff7f50;
 }
 
-.navtoggle li:not(:last-child) {
-  display: none;
-  padding-right: 0;
-}
-
 .row {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
@@ -181,7 +181,7 @@ nav>ul>li>a:active {
 
 #hero h1 {
   text-align: center;
-  padding: 30px 0 20px 0;
+  padding: 20px 0 5px 0;
   margin-top: 0;
 }
 
@@ -271,7 +271,7 @@ Medium devices (640px and larger)
 
   nav {
     float: right;
-    margin-top: 30px;
+    margin-top: 15px;
   }
 
   nav > ul {
@@ -286,9 +286,16 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
+.navtoggle li .icon {
+  display: none;
+  }
+
+body{
+  font-size: 20px;
+}
+
   main {
     padding-top: 100px;
-    font-size: 20px
   }
 
   #hero span {
