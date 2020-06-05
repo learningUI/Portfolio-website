@@ -150,6 +150,10 @@ header {
   padding-right: 0;
 }
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
 main {
   padding-top: 60px;
 }
