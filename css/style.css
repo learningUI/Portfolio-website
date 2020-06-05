@@ -145,13 +145,17 @@ header {
   font-size: 20px;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
 .navtoggle li:not(:last-child) {
   display: none;
-  padding-right: 0;
 }
 
 .navtoggle.responsive li  {
   display: block;
+  padding-right: 0;
 }
 
 main {
