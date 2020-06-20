@@ -40,13 +40,13 @@ img {
 }
 
 a {
-  color: #696969;
+  color: #FFFFF0;
   padding: 0 25px;
 }
 
 a:visited {
   /* visited link */
-  color: #696969;
+  color: #FFFFF0;
 }
 
 a:hover,
@@ -136,7 +136,7 @@ selector {
 }
 
 header {
-  background-color: #FFFFF0;
+  background-color: #808080;
   -webkit-box-shadow: 10px 10px 21px -4px rgba(235, 235, 235, 1);
   -moz-box-shadow: 10px 10px 21px -4px rgba(235, 235, 235, 1);
   box-shadow: 10px 10px 21px -4px rgba(235, 235, 235, 1);
