@@ -40,17 +40,17 @@ img {
 }
 
 a {
-  color: #ff7f50;
+  color: #696969;
 }
 
 a:visited {
   /* visited link */
-  color: #ff7f50;
+  color: #696969;
 }
 
 a:hover,
 a:focus {
-  color: #cc6540;
+  color: #ff7f50;
 }
 
 a:active {
@@ -88,7 +88,7 @@ a:active {
 .button.contact {
   /* used for email button */
   background-color: transparent;
-  color: #ff7f50 !important;
+  color: #ff7f50;
   text-transform: uppercase;
   border: 2px solid #ff7f50;
 }
@@ -102,9 +102,15 @@ a:active {
   font-size: 50px;
 }
 
+.contact a {
+  color: #ff7f50;
+}
+
 .social a {
+  color: #ff7f50;
   text-decoration: none;
   margin-top: 30px;
+  padding: 2px 15px;
 }
 
 .social {
@@ -140,7 +146,6 @@ header {
 
 .navtoggle li .icon {
   position: absolute;
-  padding-right: o;
   right: 0;
   top: 5px;
   font-size: 20px;
@@ -154,7 +159,7 @@ header {
   display: none;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding-right: 0;
 }
@@ -170,9 +175,8 @@ nav>ul {
 }
 
 nav>ul>li>a {
-  padding: 0 px;
   font-weight: 700;
-  color: #ff7f50;
+  color: #696969;
   text-decoration: none;
 }
 
@@ -283,7 +287,7 @@ Medium devices (640px and larger)
     margin-top: 15px;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
@@ -295,13 +299,13 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
-.navtoggle li .icon {
-  display: none;
+  .navtoggle li .icon {
+    display: none;
   }
 
-body{
-  font-size: 20px;
-}
+  body {
+    font-size: 20px;
+  }
 
   main {
     padding-top: 100px;
